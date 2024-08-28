@@ -4,8 +4,14 @@
 //      run command : java <class명>
 
 public class HelloWorld{
+    //  메서드란? class 내부에서 생성되는 일반적인 함수를 지칭
+    public static void outputFunc(){
+        System.out.println("Hello World");
+    }
+    
     //  run 누르면 아래 function이 실행됨.
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        //  메서드 호출
+        outputFunc();
     }
 }
